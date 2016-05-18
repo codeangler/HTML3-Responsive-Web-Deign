@@ -6,6 +6,7 @@ body{
 .container{
     max-width: 960px;
     margin: 0 auto;
+    padding: 0 1rem;
     background-color: #eff3ff;
     position:relative;
 }
@@ -14,29 +15,46 @@ h1{
     color:#CC3914;
 }
 
-h2,
-h3{
+h2,h3{
     color:#FF8240;
 }
 
-header img {
-    text-align:center;
-    display:inline-block;
+header img{
+    max-width: 100%;
+    display:block;
+    margin: 3% auto;
+    clear:both;
 }
-
-nav li {
+nav {
+    margin: 0 auto;
     background-color: #00C6FF;
 }
 
-nav li {
+nav ul{
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0;
+
+}
+
+nav li{
+    background-color: #00C6FF;
+    -webkit-padding: 15px;
+    padding: .75rem;
+    
+}
+
+nav li{
     list-style-type:none;
-    max-width: 100%;
+    
 }
 nav li:hover{
     background-color: #ff8240;
 }
 
-nav a {
+nav a{
     display: block;
     text-align: center;
     text-decoration: none;
@@ -45,19 +63,16 @@ nav a {
 
 
 /*&&&&&&&&&&&&&&&&  MOBILE   &&&&&&&&&&&&&&&&&&&*/
-@media(min-width:768px){
-    nav {
-        max-width: 100%;
-    }
+@media(max-width:768px){
+
 }
 
 /*&&&&&&&&&&&&&&&&   DESKTOP  &&&&&&&&&&&&&&&&&&&*/
 @media(min-width:1024px){
 
 nav li{
-    float:left;
+    float: left;
 }
-    
     
 }
 
