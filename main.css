@@ -1,12 +1,63 @@
 /*universal css */
+body{
+    background-color: #3D5499;
+}
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #eff3ff;
+    position:relative;
+}
+
+h1{
+    color:#CC3914;
+}
+
+h2,
+h3{
+    color:#FF8240;
+}
+
+header img {
+    text-align:center;
+    display:inline-block;
+}
+
+nav li {
+    background-color: #00C6FF;
+}
+
+nav li {
+    list-style-type:none;
+    max-width: 100%;
+}
+nav li:hover{
+    background-color: #ff8240;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #eff3ff;
+}
+
 
 /*&&&&&&&&&&&&&&&&  MOBILE   &&&&&&&&&&&&&&&&&&&*/
 @media(min-width:768px){
-    
+    nav {
+        max-width: 100%;
+    }
 }
 
 /*&&&&&&&&&&&&&&&&   DESKTOP  &&&&&&&&&&&&&&&&&&&*/
 @media(min-width:1024px){
+
+nav li{
+    float:left;
+}
+    
     
 }
 
