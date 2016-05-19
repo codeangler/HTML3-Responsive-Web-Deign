@@ -4,10 +4,10 @@ body{
 }
 
 .container{
+    background-color: #eff3ff;
     max-width: 960px;
     margin: 0 auto;
     padding: 0 1rem;
-    background-color: #eff3ff;
     position:relative;
 }
 
@@ -20,10 +20,11 @@ h2,h3{
 }
 
 header img{
-    max-width: 100%;
     display:block;
-    margin: 3% auto;
     clear:both;
+    max-width: 100%;
+    margin: 3% auto;
+   
 }
 
 nav {
@@ -56,15 +57,31 @@ nav li:hover{
 }
 
 nav a{
+    color: #eff3ff;
     display: block;
     text-align: center;
     text-decoration: none;
-    color: #eff3ff;
 }
 
-
+#gallery{
+    text-align:center;
+}
+#gallery img {
+    padding: 15px 45px;
+}
 /*&&&&&&&&&&&&&&&&  MOBILE   &&&&&&&&&&&&&&&&&&&*/
 @media(max-width:768px){
+
+#gallery{
+    text-align:inherit;
+    max-width: 100%;
+}
+#gallery img {
+    display:block;
+    clear:both;
+    
+    margin: 3% auto;
+}
 
 }
 
@@ -74,9 +91,9 @@ nav a{
 /*  http://codepen.io/senff/pen/LFiHp  */
 
 nav ul{
-    text-align: center;
     margin-bottom: 15px;
     padding:25px;
+    text-align: center;
 }
 
 nav li {
