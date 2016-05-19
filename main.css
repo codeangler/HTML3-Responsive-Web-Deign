@@ -25,9 +25,11 @@ header img{
     margin: 3% auto;
     clear:both;
 }
+
 nav {
-    margin: 0 auto;
     background-color: #00C6FF;
+    margin: 0 auto;
+    text-align: center;
 }
 
 nav ul{
@@ -36,7 +38,6 @@ nav ul{
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
     -webkit-padding-start: 0;
-
 }
 
 nav li{
@@ -72,9 +73,21 @@ nav a{
 
 /*  http://codepen.io/senff/pen/LFiHp  */
 
-nav li{
-    float: left;
+nav ul{
+    text-align: center;
+    margin-bottom: 15px;
+    padding:25px;
 }
+
+nav li {
+    display: inline;
+}
+
+nav a{
+    display: inline-block;
+    /*padding: 10px;*/
+}
+
     
 }
 
