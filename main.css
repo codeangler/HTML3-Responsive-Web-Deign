@@ -70,6 +70,8 @@ nav a{
 /*&&&&&&&&&&&&&&&&   DESKTOP  &&&&&&&&&&&&&&&&&&&*/
 @media(min-width:1024px){
 
+/*  http://codepen.io/senff/pen/LFiHp  */
+
 nav li{
     float: left;
 }
